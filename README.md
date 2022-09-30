@@ -1,6 +1,6 @@
 # NBA 4th Quarter Analysis: Project Overview
 * Compares the first three quarters with the last quarter --> less points in the 4th quarter are a result of slower pace (less possessions), not because of more defensive intensity
-* Scraped the games and box score stats of the 2019/2020 season (until the hiatus at the 11th March 2020, because of Covid-19)
+* Scraped the games and box score stats of the 2021/2022 season
 * Engineered advanced stats from the traditional stats
 * Visualized different stats and trends in specific game situations
 * Made a 2-sample t-test to prove my observations
@@ -9,11 +9,10 @@
 ## Code and Resources Used 
 * Python Version: 3.7  
 * Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, sciPy 
-* Data: https://stats.nba.com/
-* structure and formatting of the project: https://github.com/PlayingNumbers/ds_salary_proj/blob/master/README.md
+* Data: https://www.nba.com/stats/
 
 ## Web Scraping
-scraped 4 tables (1st quarter, 2nd quarter, 3rd quarter, 4th quarter), each contain:
+Scraped 4 tables (1st quarter, 2nd quarter, 3rd quarter, 4th quarter), each contain:
 * traditional stats, e.g. Points, +/-, Assists, Rebounds, Shooting Percentages...
 * Game Date
 * Matchup
@@ -31,8 +30,8 @@ For the comparison I created new variables:
 ## EDA
 I looked at the distributions of the data and combined diffrent statistics. Below are a few highlights from the pivot tables. 
 
-![alt text](https://github.com/Schlon24/NBA_4thQuarter/blob/master/score_matrix.png "relation: lead in 3rd quarter and margin of victory")
-![alt text](https://github.com/Schlon24/NBA_4thQuarter/blob/master/RTG_plot.png)
+![download](https://user-images.githubusercontent.com/60159274/193351786-0b2b62b7-9c17-445d-9e38-69ec83c56478.png)
+![download-1](https://user-images.githubusercontent.com/60159274/193351801-02bda442-2f59-45e7-8399-af5524890c3e.png)
 
 ## 2-sample t-test
 I tested statistics from the first three quarters, if they´re significant different from the 4th quarter:

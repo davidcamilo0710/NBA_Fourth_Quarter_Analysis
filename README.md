@@ -40,7 +40,7 @@ I tested statistics from the first three quarters to see if they're significantl
 
 ## KMeans Clustering (n_clusters=4)
 I wanted to know the individual team performance if some teams step up in the 4th quarter:
-* The top 2 in the season standings (i.e., PHOENIX SUNS, MEMPHIS GRIZZLIES)
+* The top 2 in the season standings (i.e., PHOENIX SUNS, MEMPHIS GRIZZLIES) grouped in the same cluster
 * Also, the bottom teams were all grouped in one cluster
 * The other two groups were teams who are in the middle or don't improve much in the 4th quarter to be in the elite cluster
 
